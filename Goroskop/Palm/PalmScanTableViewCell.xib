@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="196" id="KGk-i7-Jjw" customClass="PalmScanTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="491" height="196"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="491" height="195.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fWq-wf-zVq">
+                        <rect key="frame" x="0.0" y="0.0" width="491" height="195.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fortune" translatesAutoresizingMaskIntoConstraints="NO" id="HVz-jO-Rtb">
+                                <rect key="frame" x="20" y="68" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="8nT-pU-YM8"/>
+                                    <constraint firstAttribute="width" constant="60" id="Dr2-f3-oSk"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="生命指数：4.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="95G-gw-x7g">
+                                <rect key="frame" x="110" y="20" width="118" height="22"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="您为人热情，对人体贴为微，而且富有同情心，您为人热情，对人体贴为微，而且富有同情心，您为人热情，对人体贴为微，而且富有同情心" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ef0-qj-sc9">
+                                <rect key="frame" x="110" y="90" width="361" height="50.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6yt-hY-WQ1" customClass="YYStarView">
+                                <rect key="frame" x="371" y="50" width="100" height="20"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="kxO-7b-Oui"/>
+                                    <constraint firstAttribute="height" constant="20" id="y2P-lK-8Pd"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="6yt-hY-WQ1" secondAttribute="trailing" constant="20" id="1mG-5r-e0R"/>
+                            <constraint firstAttribute="trailing" secondItem="Ef0-qj-sc9" secondAttribute="trailing" constant="20" id="KQ5-oL-6DG"/>
+                            <constraint firstItem="HVz-jO-Rtb" firstAttribute="centerY" secondItem="fWq-wf-zVq" secondAttribute="centerY" id="Li0-wv-OGx"/>
+                            <constraint firstItem="95G-gw-x7g" firstAttribute="top" secondItem="fWq-wf-zVq" secondAttribute="top" constant="20" id="NUK-f7-7IM"/>
+                            <constraint firstItem="95G-gw-x7g" firstAttribute="leading" secondItem="HVz-jO-Rtb" secondAttribute="trailing" constant="30" id="bL7-yh-fDd"/>
+                            <constraint firstItem="6yt-hY-WQ1" firstAttribute="top" secondItem="fWq-wf-zVq" secondAttribute="top" constant="50" id="eWz-K3-DiT"/>
+                            <constraint firstItem="HVz-jO-Rtb" firstAttribute="leading" secondItem="fWq-wf-zVq" secondAttribute="leading" constant="20" id="icL-0s-YLu"/>
+                            <constraint firstItem="Ef0-qj-sc9" firstAttribute="leading" secondItem="HVz-jO-Rtb" secondAttribute="trailing" constant="30" id="jWZ-j4-LFw"/>
+                            <constraint firstItem="Ef0-qj-sc9" firstAttribute="top" secondItem="6yt-hY-WQ1" secondAttribute="bottom" constant="20" id="yri-TC-Bh8"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="fWq-wf-zVq" secondAttribute="bottom" id="N9f-GE-sR4"/>
+                    <constraint firstAttribute="trailing" secondItem="fWq-wf-zVq" secondAttribute="trailing" id="oko-ub-A7j"/>
+                    <constraint firstItem="fWq-wf-zVq" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="pfg-XS-RK4"/>
+                    <constraint firstItem="fWq-wf-zVq" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="w7O-FA-zYe"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="descripLabel" destination="Ef0-qj-sc9" id="tIO-l3-AUi"/>
+                <outlet property="handLineImageView" destination="HVz-jO-Rtb" id="F2m-dn-VdW"/>
+                <outlet property="starView" destination="6yt-hY-WQ1" id="84Z-Ah-5OT"/>
+                <outlet property="zhishuLabel" destination="95G-gw-x7g" id="PNX-ET-Cjl"/>
+            </connections>
+            <point key="canvasLocation" x="274.39999999999998" y="157.42128935532236"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="fortune" width="200" height="200"/>
+    </resources>
+</document>

@@ -7,12 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00B237B0808FBB99B314FFD2 /* libPods-Goroskop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F726BB0B688675D3ABD52DF0 /* libPods-Goroskop.a */; };
+		197CDCAD67048D90F4D7C829 /* libPods-GoroskopUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EBA38573789F442A47F0AD1 /* libPods-GoroskopUITests.a */; };
+		B0DC46AB033E1B0D007DDC7C /* libPods-GoroskopTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A14AD0CA799E635DEDA0EB73 /* libPods-GoroskopTests.a */; };
+		DD3F42B721C33FCB00863B48 /* SMLSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3F42B621C33FCB00863B48 /* SMLSegmentView.m */; };
+		DD4FE21621CB70E400BF0333 /* NSString+Att.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4FE21521CB70E400BF0333 /* NSString+Att.m */; };
+		DD61564921CCD43800DD7DDF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD61564821CCD43800DD7DDF /* GoogleService-Info.plist */; };
+		DD61564D21CCEF8E00DD7DDF /* play.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DD61564C21CCEF8E00DD7DDF /* play.mp4 */; };
+		DD6F086B21CA35B00066B74F /* CCDraggableCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6F086621CA35B00066B74F /* CCDraggableCardView.m */; };
+		DD6F086C21CA35B00066B74F /* CCDraggableContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6F086721CA35B00066B74F /* CCDraggableContainer.m */; };
+		DD6F087221CA36230066B74F /* CustomCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6F087021CA36230066B74F /* CustomCardView.m */; };
+		DD6F087521CA3DDB0066B74F /* PairViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6F087421CA3DDB0066B74F /* PairViewController.m */; };
+		DD6F087B21CA4D680066B74F /* ConstellationCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD6F087721CA4D670066B74F /* ConstellationCollectionViewCell.xib */; };
+		DD6F087C21CA4D680066B74F /* ConstellationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6F087921CA4D680066B74F /* ConstellationViewController.m */; };
+		DD6F087D21CA4D680066B74F /* ConstellationCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6F087A21CA4D680066B74F /* ConstellationCollectionViewCell.m */; };
 		DD7E215821C201920036D356 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7E215721C201920036D356 /* AppDelegate.m */; };
 		DD7E215A21C201930036D356 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD7E215921C201930036D356 /* Assets.xcassets */; };
 		DD7E215D21C201930036D356 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7E215B21C201930036D356 /* LaunchScreen.storyboard */; };
 		DD7E216021C201930036D356 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7E215F21C201930036D356 /* main.m */; };
 		DD7E216A21C201940036D356 /* GoroskopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7E216921C201940036D356 /* GoroskopTests.m */; };
 		DD7E217521C201940036D356 /* GoroskopUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7E217421C201940036D356 /* GoroskopUITests.m */; };
+		DD7E218421C202040036D356 /* HoroscopesArtistHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7E218321C202040036D356 /* HoroscopesArtistHomeViewController.m */; };
+		DD7E219C21C23B400036D356 /* ResultStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7E219921C23B400036D356 /* ResultStatus.m */; };
+		DD7E219D21C23B400036D356 /* HoroscopesArtistDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7E219A21C23B400036D356 /* HoroscopesArtistDataManager.m */; };
+		DD7E21A421C23C850036D356 /* NSObject+Network.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7E21A121C23C840036D356 /* NSObject+Network.m */; };
+		DD7E21A521C23C850036D356 /* NSObject+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7E21A221C23C850036D356 /* NSObject+HUD.m */; };
+		DD7E21A821C23CCF0036D356 /* SMLProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7E21A621C23CCE0036D356 /* SMLProgressView.m */; };
+		DD7E21B121C24E2E0036D356 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7E21AB21C24E2C0036D356 /* UIView+Extension.m */; };
+		DD7E21B221C24E2E0036D356 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7E21AC21C24E2D0036D356 /* NSDate+Extension.m */; };
+		DD7E21B321C24E2E0036D356 /* WSDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7E21AD21C24E2D0036D356 /* WSDatePickerView.m */; };
+		DD7E21B421C24E2E0036D356 /* WSDatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD7E21AE21C24E2D0036D356 /* WSDatePickerView.xib */; };
+		DD7E21B921C2568E0036D356 /* HoroscopesArtistSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7E21B621C2568D0036D356 /* HoroscopesArtistSettingViewController.m */; };
+		DD7E21BA21C2568E0036D356 /* HoroscopesArtistSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD7E21B721C2568D0036D356 /* HoroscopesArtistSettingViewController.xib */; };
+		DD7E21BE21C2593A0036D356 /* HoroscopesArtistAgreementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7E21BD21C2593A0036D356 /* HoroscopesArtistAgreementViewController.m */; };
+		DD7E21C721C26AC80036D356 /* ConstellationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7E21C621C26AC80036D356 /* ConstellationDetailViewController.m */; };
+		DDAB379C21C8DA410070D66C /* PurchaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDAB379B21C8DA410070D66C /* PurchaseViewController.m */; };
+		DDAB37A321C8E2FB0070D66C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDAB37A221C8E2FB0070D66C /* Main.storyboard */; };
+		DDC0641321C5002D00D54598 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC0641221C5002D00D54598 /* Images.xcassets */; };
+		DDC0641A21C517ED00D54598 /* FortuneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC0641821C517ED00D54598 /* FortuneViewController.m */; };
+		DDC0641B21C517ED00D54598 /* FortuneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDC0641921C517ED00D54598 /* FortuneViewController.xib */; };
+		DDC0642121C522E600D54598 /* RADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC0641E21C522E500D54598 /* RADotView.m */; };
+		DDC0642221C522E600D54598 /* RAShareChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC0641F21C522E500D54598 /* RAShareChartView.m */; };
+		DDC0642721C5230800D54598 /* UIColor+custom.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC0642421C5230700D54598 /* UIColor+custom.m */; };
+		DDC0642821C5230800D54598 /* UIBezierPath+Pentagon.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC0642621C5230800D54598 /* UIBezierPath+Pentagon.m */; };
+		DDC0FAED21F555E900F22048 /* CUCKOO_IAPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC0FAEB21F555E900F22048 /* CUCKOO_IAPManager.m */; };
+		DDC0FAEF21F56A6600F22048 /* flower.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DDC0FAEE21F56A6600F22048 /* flower.mp4 */; };
+		DDD6889E21C78A3800851C83 /* PalmScanTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD6889A21C78A3800851C83 /* PalmScanTableViewCell.m */; };
+		DDD6889F21C78A3800851C83 /* PalmScanTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDD6889B21C78A3800851C83 /* PalmScanTableViewCell.xib */; };
+		DDD688A021C78A3800851C83 /* HoroscopesArtistPalmScanResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD6889D21C78A3800851C83 /* HoroscopesArtistPalmScanResultViewController.m */; };
+		DDD688A921C78A7B00851C83 /* LLSimpleCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD688A121C78A7800851C83 /* LLSimpleCamera.m */; };
+		DDD688AA21C78A7B00851C83 /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD688A321C78A7900851C83 /* UIImage+FixOrientation.m */; };
+		DDD688AB21C78A7B00851C83 /* LLSimpleCamera+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD688A521C78A7A00851C83 /* LLSimpleCamera+Helper.m */; };
+		DDD688AC21C78A7B00851C83 /* PureCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD688A621C78A7A00851C83 /* PureCamera.m */; };
+		DDD688B121C78ACE00851C83 /* YYStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD688AE21C78ACE00851C83 /* YYStarView.m */; };
+		DDD688B621C78CAA00851C83 /* HoroscopesArtistMatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD688B421C78CAA00851C83 /* HoroscopesArtistMatchViewController.m */; };
+		DDD688C521C7961200851C83 /* NSObject+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD688BC21C7961000851C83 /* NSObject+HUD.m */; };
+		DDD688C721C7961200851C83 /* CryptoUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD688BE21C7961100851C83 /* CryptoUtils.m */; };
+		DDD688C821C7961200851C83 /* NSObject+Network.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD688C221C7961200851C83 /* NSObject+Network.m */; };
+		DDD688D221C7964B00851C83 /* DHGifImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD688CC21C7964B00851C83 /* DHGifImageOperation.m */; };
+		DDD688D321C7964B00851C83 /* KNMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD688CE21C7964B00851C83 /* KNMovieViewController.m */; };
+		DDD688D421C7964B00851C83 /* DHGuidePageHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD688D021C7964B00851C83 /* DHGuidePageHUD.m */; };
+		DDF8DC5D21EF110900E2D14D /* welcome.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DDF8DC5C21EF110900E2D14D /* welcome.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +88,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1EBA38573789F442A47F0AD1 /* libPods-GoroskopUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoroskopUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68E3760CC25CFFA387FCFA45 /* Pods-GoroskopUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoroskopUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoroskopUITests/Pods-GoroskopUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A14AD0CA799E635DEDA0EB73 /* libPods-GoroskopTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoroskopTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A967F08141A15749C254DF98 /* Pods-GoroskopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoroskopTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoroskopTests/Pods-GoroskopTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B1C3D57BA07178F2E330898E /* Pods-GoroskopUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoroskopUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoroskopUITests/Pods-GoroskopUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C7517661A40CB6D68D127D62 /* Pods-Goroskop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Goroskop.release.xcconfig"; path = "Pods/Target Support Files/Pods-Goroskop/Pods-Goroskop.release.xcconfig"; sourceTree = "<group>"; };
+		D9E5B1C25128E9CF79EDC364 /* Pods-Goroskop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Goroskop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Goroskop/Pods-Goroskop.debug.xcconfig"; sourceTree = "<group>"; };
+		DD3F42B521C33FCA00863B48 /* SMLSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMLSegmentView.h; sourceTree = "<group>"; };
+		DD3F42B621C33FCB00863B48 /* SMLSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMLSegmentView.m; sourceTree = "<group>"; };
+		DD4FE21421CB70E400BF0333 /* NSString+Att.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Att.h"; sourceTree = "<group>"; };
+		DD4FE21521CB70E400BF0333 /* NSString+Att.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Att.m"; sourceTree = "<group>"; };
+		DD61564821CCD43800DD7DDF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DD61564C21CCEF8E00DD7DDF /* play.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = play.mp4; sourceTree = "<group>"; };
+		DD6F086621CA35B00066B74F /* CCDraggableCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCDraggableCardView.m; sourceTree = "<group>"; };
+		DD6F086721CA35B00066B74F /* CCDraggableContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCDraggableContainer.m; sourceTree = "<group>"; };
+		DD6F086821CA35B00066B74F /* CCDraggableCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDraggableCardView.h; sourceTree = "<group>"; };
+		DD6F086921CA35B00066B74F /* CCDraggableConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDraggableConfig.h; sourceTree = "<group>"; };
+		DD6F086A21CA35B00066B74F /* CCDraggableContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDraggableContainer.h; sourceTree = "<group>"; };
+		DD6F086D21CA36220066B74F /* CustomCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCardView.h; sourceTree = "<group>"; };
+		DD6F087021CA36230066B74F /* CustomCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCardView.m; sourceTree = "<group>"; };
+		DD6F087321CA3DDB0066B74F /* PairViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PairViewController.h; sourceTree = "<group>"; };
+		DD6F087421CA3DDB0066B74F /* PairViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PairViewController.m; sourceTree = "<group>"; };
+		DD6F087621CA4D670066B74F /* ConstellationCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstellationCollectionViewCell.h; sourceTree = "<group>"; };
+		DD6F087721CA4D670066B74F /* ConstellationCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConstellationCollectionViewCell.xib; sourceTree = "<group>"; };
+		DD6F087821CA4D670066B74F /* ConstellationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstellationViewController.h; sourceTree = "<group>"; };
+		DD6F087921CA4D680066B74F /* ConstellationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConstellationViewController.m; sourceTree = "<group>"; };
+		DD6F087A21CA4D680066B74F /* ConstellationCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConstellationCollectionViewCell.m; sourceTree = "<group>"; };
 		DD7E215321C201920036D356 /* Goroskop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Goroskop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD7E215621C201920036D356 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DD7E215721C201920036D356 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,6 +128,83 @@
 		DD7E217021C201940036D356 /* GoroskopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoroskopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD7E217421C201940036D356 /* GoroskopUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoroskopUITests.m; sourceTree = "<group>"; };
 		DD7E217621C201940036D356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD7E218221C202040036D356 /* HoroscopesArtistHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HoroscopesArtistHomeViewController.h; sourceTree = "<group>"; };
+		DD7E218321C202040036D356 /* HoroscopesArtistHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HoroscopesArtistHomeViewController.m; sourceTree = "<group>"; };
+		DD7E218C21C20D590036D356 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		DD7E219821C23B400036D356 /* HoroscopesArtistDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoroscopesArtistDataManager.h; sourceTree = "<group>"; };
+		DD7E219921C23B400036D356 /* ResultStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultStatus.m; sourceTree = "<group>"; };
+		DD7E219A21C23B400036D356 /* HoroscopesArtistDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HoroscopesArtistDataManager.m; sourceTree = "<group>"; };
+		DD7E219B21C23B400036D356 /* ResultStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultStatus.h; sourceTree = "<group>"; };
+		DD7E21A021C23C840036D356 /* NSObject+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HUD.h"; sourceTree = "<group>"; };
+		DD7E21A121C23C840036D356 /* NSObject+Network.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Network.m"; sourceTree = "<group>"; };
+		DD7E21A221C23C850036D356 /* NSObject+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HUD.m"; sourceTree = "<group>"; };
+		DD7E21A321C23C850036D356 /* NSObject+Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Network.h"; sourceTree = "<group>"; };
+		DD7E21A621C23CCE0036D356 /* SMLProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMLProgressView.m; sourceTree = "<group>"; };
+		DD7E21A721C23CCF0036D356 /* SMLProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMLProgressView.h; sourceTree = "<group>"; };
+		DD7E21AA21C24E2C0036D356 /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		DD7E21AB21C24E2C0036D356 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		DD7E21AC21C24E2D0036D356 /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+		DD7E21AD21C24E2D0036D356 /* WSDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSDatePickerView.m; sourceTree = "<group>"; };
+		DD7E21AE21C24E2D0036D356 /* WSDatePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WSDatePickerView.xib; sourceTree = "<group>"; };
+		DD7E21AF21C24E2E0036D356 /* WSDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSDatePickerView.h; sourceTree = "<group>"; };
+		DD7E21B021C24E2E0036D356 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		DD7E21B621C2568D0036D356 /* HoroscopesArtistSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HoroscopesArtistSettingViewController.m; sourceTree = "<group>"; };
+		DD7E21B721C2568D0036D356 /* HoroscopesArtistSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HoroscopesArtistSettingViewController.xib; sourceTree = "<group>"; };
+		DD7E21B821C2568E0036D356 /* HoroscopesArtistSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoroscopesArtistSettingViewController.h; sourceTree = "<group>"; };
+		DD7E21BC21C259390036D356 /* HoroscopesArtistAgreementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoroscopesArtistAgreementViewController.h; sourceTree = "<group>"; };
+		DD7E21BD21C2593A0036D356 /* HoroscopesArtistAgreementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HoroscopesArtistAgreementViewController.m; sourceTree = "<group>"; };
+		DD7E21C521C26AC80036D356 /* ConstellationDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConstellationDetailViewController.h; sourceTree = "<group>"; };
+		DD7E21C621C26AC80036D356 /* ConstellationDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConstellationDetailViewController.m; sourceTree = "<group>"; };
+		DDAB379A21C8DA410070D66C /* PurchaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PurchaseViewController.h; sourceTree = "<group>"; };
+		DDAB379B21C8DA410070D66C /* PurchaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PurchaseViewController.m; sourceTree = "<group>"; };
+		DDAB37A221C8E2FB0070D66C /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DDC0641221C5002D00D54598 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DDC0641721C517ED00D54598 /* FortuneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FortuneViewController.h; sourceTree = "<group>"; };
+		DDC0641821C517ED00D54598 /* FortuneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FortuneViewController.m; sourceTree = "<group>"; };
+		DDC0641921C517ED00D54598 /* FortuneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FortuneViewController.xib; sourceTree = "<group>"; };
+		DDC0641D21C522E500D54598 /* RAShareChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAShareChartView.h; sourceTree = "<group>"; };
+		DDC0641E21C522E500D54598 /* RADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RADotView.m; sourceTree = "<group>"; };
+		DDC0641F21C522E500D54598 /* RAShareChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAShareChartView.m; sourceTree = "<group>"; };
+		DDC0642021C522E600D54598 /* RADotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RADotView.h; sourceTree = "<group>"; };
+		DDC0642321C5230700D54598 /* UIColor+custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+custom.h"; sourceTree = "<group>"; };
+		DDC0642421C5230700D54598 /* UIColor+custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+custom.m"; sourceTree = "<group>"; };
+		DDC0642521C5230800D54598 /* UIBezierPath+Pentagon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+Pentagon.h"; sourceTree = "<group>"; };
+		DDC0642621C5230800D54598 /* UIBezierPath+Pentagon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+Pentagon.m"; sourceTree = "<group>"; };
+		DDC0FAEB21F555E900F22048 /* CUCKOO_IAPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUCKOO_IAPManager.m; sourceTree = "<group>"; };
+		DDC0FAEC21F555E900F22048 /* CUCKOO_IAPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUCKOO_IAPManager.h; sourceTree = "<group>"; };
+		DDC0FAEE21F56A6600F22048 /* flower.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = flower.mp4; sourceTree = "<group>"; };
+		DDD6889921C78A3700851C83 /* PalmScanTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PalmScanTableViewCell.h; sourceTree = "<group>"; };
+		DDD6889A21C78A3800851C83 /* PalmScanTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PalmScanTableViewCell.m; sourceTree = "<group>"; };
+		DDD6889B21C78A3800851C83 /* PalmScanTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PalmScanTableViewCell.xib; sourceTree = "<group>"; };
+		DDD6889C21C78A3800851C83 /* HoroscopesArtistPalmScanResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoroscopesArtistPalmScanResultViewController.h; sourceTree = "<group>"; };
+		DDD6889D21C78A3800851C83 /* HoroscopesArtistPalmScanResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HoroscopesArtistPalmScanResultViewController.m; sourceTree = "<group>"; };
+		DDD688A121C78A7800851C83 /* LLSimpleCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSimpleCamera.m; sourceTree = "<group>"; };
+		DDD688A221C78A7900851C83 /* UIImage+FixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FixOrientation.h"; sourceTree = "<group>"; };
+		DDD688A321C78A7900851C83 /* UIImage+FixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FixOrientation.m"; sourceTree = "<group>"; };
+		DDD688A421C78A7900851C83 /* LLSimpleCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSimpleCamera.h; sourceTree = "<group>"; };
+		DDD688A521C78A7A00851C83 /* LLSimpleCamera+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LLSimpleCamera+Helper.m"; sourceTree = "<group>"; };
+		DDD688A621C78A7A00851C83 /* PureCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PureCamera.m; sourceTree = "<group>"; };
+		DDD688A721C78A7A00851C83 /* PureCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureCamera.h; sourceTree = "<group>"; };
+		DDD688A821C78A7A00851C83 /* LLSimpleCamera+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LLSimpleCamera+Helper.h"; sourceTree = "<group>"; };
+		DDD688AE21C78ACE00851C83 /* YYStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYStarView.m; sourceTree = "<group>"; };
+		DDD688B021C78ACE00851C83 /* YYStarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYStarView.h; sourceTree = "<group>"; };
+		DDD688B421C78CAA00851C83 /* HoroscopesArtistMatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HoroscopesArtistMatchViewController.m; sourceTree = "<group>"; };
+		DDD688B521C78CAA00851C83 /* HoroscopesArtistMatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoroscopesArtistMatchViewController.h; sourceTree = "<group>"; };
+		DDD688BB21C7961000851C83 /* CryptoUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CryptoUtils.h; sourceTree = "<group>"; };
+		DDD688BC21C7961000851C83 /* NSObject+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HUD.m"; sourceTree = "<group>"; };
+		DDD688BE21C7961100851C83 /* CryptoUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CryptoUtils.m; sourceTree = "<group>"; };
+		DDD688BF21C7961100851C83 /* NSObject+Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Network.h"; sourceTree = "<group>"; };
+		DDD688C121C7961200851C83 /* NSObject+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HUD.h"; sourceTree = "<group>"; };
+		DDD688C221C7961200851C83 /* NSObject+Network.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Network.m"; sourceTree = "<group>"; };
+		DDD688CB21C7964B00851C83 /* KNMovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNMovieViewController.h; sourceTree = "<group>"; };
+		DDD688CC21C7964B00851C83 /* DHGifImageOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHGifImageOperation.m; sourceTree = "<group>"; };
+		DDD688CD21C7964B00851C83 /* DHGuidePageHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHGuidePageHUD.h; sourceTree = "<group>"; };
+		DDD688CE21C7964B00851C83 /* KNMovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNMovieViewController.m; sourceTree = "<group>"; };
+		DDD688CF21C7964B00851C83 /* DHGifImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHGifImageOperation.h; sourceTree = "<group>"; };
+		DDD688D021C7964B00851C83 /* DHGuidePageHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHGuidePageHUD.m; sourceTree = "<group>"; };
+		DDF8DC5C21EF110900E2D14D /* welcome.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = welcome.mp4; sourceTree = "<group>"; };
+		EBE14713DDAB51B87410915C /* Pods-GoroskopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoroskopTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoroskopTests/Pods-GoroskopTests.release.xcconfig"; sourceTree = "<group>"; };
+		F726BB0B688675D3ABD52DF0 /* libPods-Goroskop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Goroskop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +212,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00B237B0808FBB99B314FFD2 /* libPods-Goroskop.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +220,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0DC46AB033E1B0D007DDC7C /* libPods-GoroskopTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,12 +228,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				197CDCAD67048D90F4D7C829 /* libPods-GoroskopUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21C8DB5B43DDE59F327D648D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F726BB0B688675D3ABD52DF0 /* libPods-Goroskop.a */,
+				A14AD0CA799E635DEDA0EB73 /* libPods-GoroskopTests.a */,
+				1EBA38573789F442A47F0AD1 /* libPods-GoroskopUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD6F086421CA35820066B74F /* Drag */ = {
+			isa = PBXGroup;
+			children = (
+				DD6F086521CA35B00066B74F /* CCDraggableCard */,
+			);
+			path = Drag;
+			sourceTree = "<group>";
+		};
+		DD6F086521CA35B00066B74F /* CCDraggableCard */ = {
+			isa = PBXGroup;
+			children = (
+				DD6F086D21CA36220066B74F /* CustomCardView.h */,
+				DD6F087021CA36230066B74F /* CustomCardView.m */,
+				DD6F086621CA35B00066B74F /* CCDraggableCardView.m */,
+				DD6F086721CA35B00066B74F /* CCDraggableContainer.m */,
+				DD6F086821CA35B00066B74F /* CCDraggableCardView.h */,
+				DD6F086921CA35B00066B74F /* CCDraggableConfig.h */,
+				DD6F086A21CA35B00066B74F /* CCDraggableContainer.h */,
+			);
+			path = CCDraggableCard;
+			sourceTree = "<group>";
+		};
 		DD7E214A21C201920036D356 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +274,8 @@
 				DD7E216821C201940036D356 /* GoroskopTests */,
 				DD7E217321C201940036D356 /* GoroskopUITests */,
 				DD7E215421C201920036D356 /* Products */,
+				FC88C2E8BFAE09785FFD0A0F /* Pods */,
+				21C8DB5B43DDE59F327D648D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,12 +292,27 @@
 		DD7E215521C201920036D356 /* Goroskop */ = {
 			isa = PBXGroup;
 			children = (
+				DDC0FAEE21F56A6600F22048 /* flower.mp4 */,
+				DDF8DC5C21EF110900E2D14D /* welcome.mp4 */,
+				DD61564C21CCEF8E00DD7DDF /* play.mp4 */,
+				DDD688C921C7964B00851C83 /* GuidePages */,
+				DDD688B321C78C9B00851C83 /* Match */,
+				DDD688AD21C78ACE00851C83 /* YYStarView */,
+				DDD6889821C78A2600851C83 /* Palm */,
+				DDC0641421C5054E00D54598 /* buy */,
+				DD7E21BF21C266950036D356 /* constellationDetail */,
+				DD7E21BB21C259120036D356 /* agreement */,
+				DD7E21B521C256680036D356 /* Setting */,
+				DD7E218A21C203420036D356 /* Home */,
 				DD7E215621C201920036D356 /* AppDelegate.h */,
 				DD7E215721C201920036D356 /* AppDelegate.m */,
+				DD7E218C21C20D590036D356 /* PrefixHeader.pch */,
 				DD7E215921C201930036D356 /* Assets.xcassets */,
 				DD7E215B21C201930036D356 /* LaunchScreen.storyboard */,
 				DD7E215E21C201930036D356 /* Info.plist */,
 				DD7E215F21C201930036D356 /* main.m */,
+				DDC0641221C5002D00D54598 /* Images.xcassets */,
+				DDAB37A221C8E2FB0070D66C /* Main.storyboard */,
 			);
 			path = Goroskop;
 			sourceTree = "<group>";
@@ -124,6 +335,181 @@
 			path = GoroskopUITests;
 			sourceTree = "<group>";
 		};
+		DD7E218A21C203420036D356 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DD6F087621CA4D670066B74F /* ConstellationCollectionViewCell.h */,
+				DD6F087A21CA4D680066B74F /* ConstellationCollectionViewCell.m */,
+				DD6F087821CA4D670066B74F /* ConstellationViewController.h */,
+				DD6F087721CA4D670066B74F /* ConstellationCollectionViewCell.xib */,
+				DD6F087921CA4D680066B74F /* ConstellationViewController.m */,
+				DD6F086421CA35820066B74F /* Drag */,
+				DD7E21A921C24DF60036D356 /* selectDate */,
+				DD7E21A721C23CCF0036D356 /* SMLProgressView.h */,
+				DD7E21A621C23CCE0036D356 /* SMLProgressView.m */,
+				DD7E21A021C23C840036D356 /* NSObject+HUD.h */,
+				DD7E21A221C23C850036D356 /* NSObject+HUD.m */,
+				DD7E21A321C23C850036D356 /* NSObject+Network.h */,
+				DD7E21A121C23C840036D356 /* NSObject+Network.m */,
+				DD7E219821C23B400036D356 /* HoroscopesArtistDataManager.h */,
+				DD7E219A21C23B400036D356 /* HoroscopesArtistDataManager.m */,
+				DD7E219B21C23B400036D356 /* ResultStatus.h */,
+				DD7E219921C23B400036D356 /* ResultStatus.m */,
+				DD7E218221C202040036D356 /* HoroscopesArtistHomeViewController.h */,
+				DD7E218321C202040036D356 /* HoroscopesArtistHomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DD7E21A921C24DF60036D356 /* selectDate */ = {
+			isa = PBXGroup;
+			children = (
+				DD7E21AA21C24E2C0036D356 /* NSDate+Extension.h */,
+				DD7E21AC21C24E2D0036D356 /* NSDate+Extension.m */,
+				DD7E21B021C24E2E0036D356 /* UIView+Extension.h */,
+				DD7E21AB21C24E2C0036D356 /* UIView+Extension.m */,
+				DD7E21AF21C24E2E0036D356 /* WSDatePickerView.h */,
+				DD7E21AD21C24E2D0036D356 /* WSDatePickerView.m */,
+				DD7E21AE21C24E2D0036D356 /* WSDatePickerView.xib */,
+			);
+			path = selectDate;
+			sourceTree = "<group>";
+		};
+		DD7E21B521C256680036D356 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				DD7E21B821C2568E0036D356 /* HoroscopesArtistSettingViewController.h */,
+				DD7E21B621C2568D0036D356 /* HoroscopesArtistSettingViewController.m */,
+				DD7E21B721C2568D0036D356 /* HoroscopesArtistSettingViewController.xib */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		DD7E21BB21C259120036D356 /* agreement */ = {
+			isa = PBXGroup;
+			children = (
+				DD7E21BC21C259390036D356 /* HoroscopesArtistAgreementViewController.h */,
+				DD7E21BD21C2593A0036D356 /* HoroscopesArtistAgreementViewController.m */,
+			);
+			path = agreement;
+			sourceTree = "<group>";
+		};
+		DD7E21BF21C266950036D356 /* constellationDetail */ = {
+			isa = PBXGroup;
+			children = (
+				DD4FE21421CB70E400BF0333 /* NSString+Att.h */,
+				DD4FE21521CB70E400BF0333 /* NSString+Att.m */,
+				DDC0641C21C522C400D54598 /* Radar */,
+				DD3F42B521C33FCA00863B48 /* SMLSegmentView.h */,
+				DD3F42B621C33FCB00863B48 /* SMLSegmentView.m */,
+				DD7E21C521C26AC80036D356 /* ConstellationDetailViewController.h */,
+				DD7E21C621C26AC80036D356 /* ConstellationDetailViewController.m */,
+				DDC0641721C517ED00D54598 /* FortuneViewController.h */,
+				DDC0641821C517ED00D54598 /* FortuneViewController.m */,
+				DDC0641921C517ED00D54598 /* FortuneViewController.xib */,
+			);
+			path = constellationDetail;
+			sourceTree = "<group>";
+		};
+		DDC0641421C5054E00D54598 /* buy */ = {
+			isa = PBXGroup;
+			children = (
+				DDC0FAEC21F555E900F22048 /* CUCKOO_IAPManager.h */,
+				DDC0FAEB21F555E900F22048 /* CUCKOO_IAPManager.m */,
+				DD61564821CCD43800DD7DDF /* GoogleService-Info.plist */,
+				DDD688BB21C7961000851C83 /* CryptoUtils.h */,
+				DDD688BE21C7961100851C83 /* CryptoUtils.m */,
+				DDD688C121C7961200851C83 /* NSObject+HUD.h */,
+				DDD688BC21C7961000851C83 /* NSObject+HUD.m */,
+				DDD688BF21C7961100851C83 /* NSObject+Network.h */,
+				DDD688C221C7961200851C83 /* NSObject+Network.m */,
+				DDAB379A21C8DA410070D66C /* PurchaseViewController.h */,
+				DDAB379B21C8DA410070D66C /* PurchaseViewController.m */,
+			);
+			path = buy;
+			sourceTree = "<group>";
+		};
+		DDC0641C21C522C400D54598 /* Radar */ = {
+			isa = PBXGroup;
+			children = (
+				DDC0642521C5230800D54598 /* UIBezierPath+Pentagon.h */,
+				DDC0642621C5230800D54598 /* UIBezierPath+Pentagon.m */,
+				DDC0642321C5230700D54598 /* UIColor+custom.h */,
+				DDC0642421C5230700D54598 /* UIColor+custom.m */,
+				DDC0642021C522E600D54598 /* RADotView.h */,
+				DDC0641E21C522E500D54598 /* RADotView.m */,
+				DDC0641D21C522E500D54598 /* RAShareChartView.h */,
+				DDC0641F21C522E500D54598 /* RAShareChartView.m */,
+			);
+			path = Radar;
+			sourceTree = "<group>";
+		};
+		DDD6889821C78A2600851C83 /* Palm */ = {
+			isa = PBXGroup;
+			children = (
+				DDD688A421C78A7900851C83 /* LLSimpleCamera.h */,
+				DDD688A121C78A7800851C83 /* LLSimpleCamera.m */,
+				DDD688A821C78A7A00851C83 /* LLSimpleCamera+Helper.h */,
+				DDD688A521C78A7A00851C83 /* LLSimpleCamera+Helper.m */,
+				DDD688A721C78A7A00851C83 /* PureCamera.h */,
+				DDD688A621C78A7A00851C83 /* PureCamera.m */,
+				DDD688A221C78A7900851C83 /* UIImage+FixOrientation.h */,
+				DDD688A321C78A7900851C83 /* UIImage+FixOrientation.m */,
+				DDD6889C21C78A3800851C83 /* HoroscopesArtistPalmScanResultViewController.h */,
+				DDD6889D21C78A3800851C83 /* HoroscopesArtistPalmScanResultViewController.m */,
+				DDD6889921C78A3700851C83 /* PalmScanTableViewCell.h */,
+				DDD6889A21C78A3800851C83 /* PalmScanTableViewCell.m */,
+				DDD6889B21C78A3800851C83 /* PalmScanTableViewCell.xib */,
+			);
+			path = Palm;
+			sourceTree = "<group>";
+		};
+		DDD688AD21C78ACE00851C83 /* YYStarView */ = {
+			isa = PBXGroup;
+			children = (
+				DDD688AE21C78ACE00851C83 /* YYStarView.m */,
+				DDD688B021C78ACE00851C83 /* YYStarView.h */,
+			);
+			path = YYStarView;
+			sourceTree = "<group>";
+		};
+		DDD688B321C78C9B00851C83 /* Match */ = {
+			isa = PBXGroup;
+			children = (
+				DDD688B521C78CAA00851C83 /* HoroscopesArtistMatchViewController.h */,
+				DDD688B421C78CAA00851C83 /* HoroscopesArtistMatchViewController.m */,
+				DD6F087321CA3DDB0066B74F /* PairViewController.h */,
+				DD6F087421CA3DDB0066B74F /* PairViewController.m */,
+			);
+			path = Match;
+			sourceTree = "<group>";
+		};
+		DDD688C921C7964B00851C83 /* GuidePages */ = {
+			isa = PBXGroup;
+			children = (
+				DDD688CB21C7964B00851C83 /* KNMovieViewController.h */,
+				DDD688CE21C7964B00851C83 /* KNMovieViewController.m */,
+				DDD688CF21C7964B00851C83 /* DHGifImageOperation.h */,
+				DDD688CC21C7964B00851C83 /* DHGifImageOperation.m */,
+				DDD688CD21C7964B00851C83 /* DHGuidePageHUD.h */,
+				DDD688D021C7964B00851C83 /* DHGuidePageHUD.m */,
+			);
+			path = GuidePages;
+			sourceTree = "<group>";
+		};
+		FC88C2E8BFAE09785FFD0A0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9E5B1C25128E9CF79EDC364 /* Pods-Goroskop.debug.xcconfig */,
+				C7517661A40CB6D68D127D62 /* Pods-Goroskop.release.xcconfig */,
+				A967F08141A15749C254DF98 /* Pods-GoroskopTests.debug.xcconfig */,
+				EBE14713DDAB51B87410915C /* Pods-GoroskopTests.release.xcconfig */,
+				B1C3D57BA07178F2E330898E /* Pods-GoroskopUITests.debug.xcconfig */,
+				68E3760CC25CFFA387FCFA45 /* Pods-GoroskopUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,9 +517,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD7E217921C201940036D356 /* Build configuration list for PBXNativeTarget "Goroskop" */;
 			buildPhases = (
+				0FDD27149975BF0DD05008C7 /* [CP] Check Pods Manifest.lock */,
 				DD7E214F21C201920036D356 /* Sources */,
 				DD7E215021C201920036D356 /* Frameworks */,
 				DD7E215121C201920036D356 /* Resources */,
+				172E40787F435AF46E8E9463 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -148,6 +536,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD7E217C21C201940036D356 /* Build configuration list for PBXNativeTarget "GoroskopTests" */;
 			buildPhases = (
+				7415C4E484B916BBF9EE0E17 /* [CP] Check Pods Manifest.lock */,
 				DD7E216121C201940036D356 /* Sources */,
 				DD7E216221C201940036D356 /* Frameworks */,
 				DD7E216321C201940036D356 /* Resources */,
@@ -166,6 +555,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD7E217F21C201940036D356 /* Build configuration list for PBXNativeTarget "GoroskopUITests" */;
 			buildPhases = (
+				ED903F5C729BF80A78DF09D2 /* [CP] Check Pods Manifest.lock */,
 				DD7E216C21C201940036D356 /* Sources */,
 				DD7E216D21C201940036D356 /* Frameworks */,
 				DD7E216E21C201940036D356 /* Resources */,
@@ -227,7 +617,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD61564921CCD43800DD7DDF /* GoogleService-Info.plist in Resources */,
+				DD61564D21CCEF8E00DD7DDF /* play.mp4 in Resources */,
 				DD7E215A21C201930036D356 /* Assets.xcassets in Resources */,
+				DD7E21BA21C2568E0036D356 /* HoroscopesArtistSettingViewController.xib in Resources */,
+				DDD6889F21C78A3800851C83 /* PalmScanTableViewCell.xib in Resources */,
+				DD6F087B21CA4D680066B74F /* ConstellationCollectionViewCell.xib in Resources */,
+				DDF8DC5D21EF110900E2D14D /* welcome.mp4 in Resources */,
+				DDAB37A321C8E2FB0070D66C /* Main.storyboard in Resources */,
+				DDC0641B21C517ED00D54598 /* FortuneViewController.xib in Resources */,
+				DDC0641321C5002D00D54598 /* Images.xcassets in Resources */,
+				DD7E21B421C24E2E0036D356 /* WSDatePickerView.xib in Resources */,
+				DDC0FAEF21F56A6600F22048 /* flower.mp4 in Resources */,
 				DD7E215D21C201930036D356 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,13 +649,147 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0FDD27149975BF0DD05008C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Goroskop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		172E40787F435AF46E8E9463 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Goroskop/Pods-Goroskop-resources.sh",
+				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FacebookSDKStrings.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Goroskop/Pods-Goroskop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7415C4E484B916BBF9EE0E17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoroskopTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED903F5C729BF80A78DF09D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoroskopUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DD7E214F21C201920036D356 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD7E21B121C24E2E0036D356 /* UIView+Extension.m in Sources */,
+				DDD688B621C78CAA00851C83 /* HoroscopesArtistMatchViewController.m in Sources */,
+				DDD688D221C7964B00851C83 /* DHGifImageOperation.m in Sources */,
+				DD6F086C21CA35B00066B74F /* CCDraggableContainer.m in Sources */,
+				DD6F087221CA36230066B74F /* CustomCardView.m in Sources */,
+				DDD688C721C7961200851C83 /* CryptoUtils.m in Sources */,
 				DD7E216021C201930036D356 /* main.m in Sources */,
+				DDD6889E21C78A3800851C83 /* PalmScanTableViewCell.m in Sources */,
+				DD4FE21621CB70E400BF0333 /* NSString+Att.m in Sources */,
+				DD7E21C721C26AC80036D356 /* ConstellationDetailViewController.m in Sources */,
+				DD7E21B921C2568E0036D356 /* HoroscopesArtistSettingViewController.m in Sources */,
+				DDC0642821C5230800D54598 /* UIBezierPath+Pentagon.m in Sources */,
+				DDD688B121C78ACE00851C83 /* YYStarView.m in Sources */,
+				DDD688A921C78A7B00851C83 /* LLSimpleCamera.m in Sources */,
+				DD6F087C21CA4D680066B74F /* ConstellationViewController.m in Sources */,
+				DDD688C821C7961200851C83 /* NSObject+Network.m in Sources */,
+				DD7E21B321C24E2E0036D356 /* WSDatePickerView.m in Sources */,
+				DDD688AB21C78A7B00851C83 /* LLSimpleCamera+Helper.m in Sources */,
+				DD3F42B721C33FCB00863B48 /* SMLSegmentView.m in Sources */,
+				DD7E21B221C24E2E0036D356 /* NSDate+Extension.m in Sources */,
+				DDD688C521C7961200851C83 /* NSObject+HUD.m in Sources */,
+				DDD688AC21C78A7B00851C83 /* PureCamera.m in Sources */,
+				DD7E219D21C23B400036D356 /* HoroscopesArtistDataManager.m in Sources */,
 				DD7E215821C201920036D356 /* AppDelegate.m in Sources */,
+				DDC0FAED21F555E900F22048 /* CUCKOO_IAPManager.m in Sources */,
+				DDC0642121C522E600D54598 /* RADotView.m in Sources */,
+				DDD688D421C7964B00851C83 /* DHGuidePageHUD.m in Sources */,
+				DDC0642721C5230800D54598 /* UIColor+custom.m in Sources */,
+				DDD688A021C78A3800851C83 /* HoroscopesArtistPalmScanResultViewController.m in Sources */,
+				DD6F086B21CA35B00066B74F /* CCDraggableCardView.m in Sources */,
+				DD7E218421C202040036D356 /* HoroscopesArtistHomeViewController.m in Sources */,
+				DD6F087D21CA4D680066B74F /* ConstellationCollectionViewCell.m in Sources */,
+				DD7E21A821C23CCF0036D356 /* SMLProgressView.m in Sources */,
+				DDD688D321C7964B00851C83 /* KNMovieViewController.m in Sources */,
+				DD7E21A421C23C850036D356 /* NSObject+Network.m in Sources */,
+				DD6F087521CA3DDB0066B74F /* PairViewController.m in Sources */,
+				DD7E21A521C23C850036D356 /* NSObject+HUD.m in Sources */,
+				DD7E21BE21C2593A0036D356 /* HoroscopesArtistAgreementViewController.m in Sources */,
+				DDC0642221C522E600D54598 /* RAShareChartView.m in Sources */,
+				DD7E219C21C23B400036D356 /* ResultStatus.m in Sources */,
+				DDAB379C21C8DA410070D66C /* PurchaseViewController.m in Sources */,
+				DDD688AA21C78A7B00851C83 /* UIImage+FixOrientation.m in Sources */,
+				DDC0641A21C517ED00D54598 /* FortuneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,40 +950,59 @@
 		};
 		DD7E217A21C201940036D356 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9E5B1C25128E9CF79EDC364 /* Pods-Goroskop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 35387BRENC;
+				DEVELOPMENT_TEAM = H2DR8BBX3T;
+				ENABLE_BITCODE = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Goroskop/PrefixHeader.pch";
 				INFOPLIST_FILE = Goroskop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = XYSH.Goroskop;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Horoscopes-Artist.Horoscopes-Artist.www";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		DD7E217B21C201940036D356 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7517661A40CB6D68D127D62 /* Pods-Goroskop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 35387BRENC;
+				DEVELOPMENT_TEAM = H2DR8BBX3T;
+				ENABLE_BITCODE = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Goroskop/PrefixHeader.pch";
 				INFOPLIST_FILE = Goroskop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = XYSH.Goroskop;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Horoscopes-Artist.Horoscopes-Artist.www";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		DD7E217D21C201940036D356 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A967F08141A15749C254DF98 /* Pods-GoroskopTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +1022,7 @@
 		};
 		DD7E217E21C201940036D356 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBE14713DDAB51B87410915C /* Pods-GoroskopTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -487,6 +1042,7 @@
 		};
 		DD7E218021C201940036D356 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1C3D57BA07178F2E330898E /* Pods-GoroskopUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 35387BRENC;
@@ -505,6 +1061,7 @@
 		};
 		DD7E218121C201940036D356 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68E3760CC25CFFA387FCFA45 /* Pods-GoroskopUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 35387BRENC;
